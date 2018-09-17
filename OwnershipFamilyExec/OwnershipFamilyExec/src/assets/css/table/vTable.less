@@ -1,0 +1,97 @@
+.region_substance{
+	.region_content_modules{
+		-moz-box-flex: 1;
+		-webkit-box-flex: 1;
+		flex: 1;
+		height: 88.88%;
+		border-radius: 0.1rem;
+		position: relative;
+		border-top-left-radius: 0rem;
+		border-top-right-radius: 0rem;
+		.region_table_content{
+			padding: 20px !important;
+		    width: 100%;
+		    height: 100%;
+		    margin: 0 auto;
+		    background-color: rgba(255, 255, 255, 0.8);
+		    border-bottom-left-radius: 0.1rem;
+		    border-bottom-right-radius: 0.1rem;
+		    opacity: 0.8;
+		    display: -webkit-flex;
+		    display: flex;
+		    flex-direction: column;
+			.el-table{
+				height: 100% !important;
+				th{
+					font-weight: normal !important;
+					.cell{
+						color: #999999 !important;
+					}
+				}
+			}
+			.el-table--striped .el-table__body tr.el-table__row--striped td{
+				background: #f9f9f9 !important;
+			}
+			.el-table__row td:nth-of-type(4) div{
+				color: #db0034 !important;
+			}
+		}
+		.el-pagination{
+			background: #fafafa;
+		    position: relative;
+		    padding-top: 0.1rem;
+		    height: 0.57rem;
+		}
+		.el-table,.el-table__expanded-cell{
+			background: #fafafa;
+		}
+		.region_table_content_modules{
+			-moz-box-flex: 1; /*中间div宽度自适应屏幕 兼容Firefox*/
+			-webkit-box-flex: 1;/*中间div宽度自适应屏幕 兼容Chrome、Safari*/
+			flex: 1;
+			height: 83.81%;
+		}
+	}
+}
+.vTable{
+	width: 100%;
+	height: 100%;
+	background: url('../../images/basic_bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	.region_detail_tabs{
+		width: 100%;
+	    height: 94.2%;
+	    .region_substance{
+	    	width: 94.2%;
+			height: 100%;
+			display: -webkit-flex;
+		    display: flex;
+		    flex-direction: column;
+			margin: 0 auto;
+			padding-top: 0.25rem;
+			.region_title{
+				width: 100%;
+			    height: 0.5rem;
+			    line-height: 0.5rem;
+			    background-color: rgba(255, 255, 255, 0.7);
+			    opacity: 0.7;
+			    border-top-left-radius: 0.1rem;
+			    border-top-right-radius: 0.1rem;
+			    font-weight: bold;
+			    font-size: 0.17rem;
+			    color: #000000;
+			    padding-left: 0.21rem;
+			    a{
+			    	color: #333333;
+			    	font-weight: normal;
+			    	margin-right: 0.1rem;
+			    	i{
+			    		color: #333333;
+			    		font-size: 0.18rem;
+			    	}
+			    }
+			}
+	    }
+	}
+}

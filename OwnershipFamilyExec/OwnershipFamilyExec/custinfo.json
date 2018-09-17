@@ -1,0 +1,802 @@
+﻿{
+	"Result": {
+		"Name": "北京万达投资有限公司",
+		"Oper": {
+			"Org": 2,
+			"Name": "张霖",
+			"KeyNo": "p165991ca474f1da37007ab96536b1a5",
+			"HasImage": true,
+			"CompanyCount": 1296,
+			"OperType": 1
+		},
+		"StartDate": "2006-12-25",
+		"Status": "开业",
+		"DbUpdatedDate": 1535845228,
+		"ShortStatus": "在业",
+		"RegistCapi": "300000万元人民币",
+		"IsExpired": false,
+		"ImageUrl": "https://qccdata.qichacha.com/AutoImage/c2dbad658a8febcfb63de4d876ed79bd.jpg?x-oss-process=image/resize,w_120",
+		"EnglishName": null,
+		"DUNSNo": null,
+		"Type": 0,
+		"Tag": null,
+		"Financing": null,
+		"TaxNo": "91110105797551458Q",
+		"CbuItem": "项目投资；投资管理；投资咨询；专业承包；室内装饰工程设计。（“1、未经有关部门批准，不得以公开方式募集资金；2、不得公开开展证券类产品和金融衍生品交易活动；3、不得发放贷款；4、不得对所投资企业以外的其他企业提供担保；5、不得向投资者承诺投资本金不受损失或者承诺最低收益”；。企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）",
+		"AbuItem": "项目投资；投资管理；投资咨询；专业承包；室内装饰工程设计。（“1、未经有关部门批准，不得以公开方式募集资金；2、不得公开开展证券类产品和金融衍生品交易活动；3、不得发放贷款；4、不得对所投资企业以外的其他企业提供担保；5、不得向投资者承诺投资本金不受损失或者承诺最低收益”；。企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）",
+		"OpForm": null,
+		"RecCap": "300000万元人民币",
+		"IndustryV3": {
+			"IndustryCode": "L",
+			"Industry": "租赁和商务服务业",
+			"SubIndustryCode": "72",
+			"SubIndustry": "商务服务业",
+			"MiddleCategoryCode": "721",
+			"MiddleCategory": "组织管理服务",
+			"SmallCategoryCode": "7212",
+			"SmallCategory": "投资与资产管理"
+		},
+		"Partners": [{
+			"Org": 0,
+			"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+			"HasImage": true,
+			"CompanyCount": 18,
+			"StockName": "北京万达文化产业集团有限公司",
+			"StockType": "企业法人",
+			"StockPercent": "98.80%",
+			"IdentifyType": "企业法人营业执照(公司)",
+			"IdentifyNo": "110000015251726",
+			"ShouldCapi": "296400",
+			"ShoudDate": "2012-09-25",
+			"InvestType": "货币",
+			"InvestName": "货币",
+			"RealCapi": "296400",
+			"CapiDate": "2012-09-25",
+			"ImageUrl": "https://co-image.qichacha.com/CompanyImage/dcf5109629a637be741bf8033c3408c0.jpg?x-oss-process=style/qcc_cmp"
+		}, {
+			"Org": 2,
+			"KeyNo": "pea5ac417585edc0effd7d23406510da",
+			"HasImage": true,
+			"CompanyCount": 32,
+			"StockName": "王健林",
+			"StockType": "自然人股东",
+			"StockPercent": "1.20%",
+			"IdentifyType": "非公示项",
+			"IdentifyNo": null,
+			"ShouldCapi": "3600",
+			"ShoudDate": "2006-12-22",
+			"InvestType": "货币",
+			"InvestName": "货币",
+			"RealCapi": "3600",
+			"CapiDate": "2006-12-22"
+		}],
+		"Employees": [{
+			"No": 0,
+			"KeyNo": "p3ef4e77096b20e7aef87d487aff8a0a",
+			"HasImage": false,
+			"CompanyCount": 360,
+			"Name": "张谌",
+			"Job": "监事",
+			"CerNo": null,
+			"ScertName": null
+		}, {
+			"No": 0,
+			"KeyNo": "p165991ca474f1da37007ab96536b1a5",
+			"HasImage": true,
+			"CompanyCount": 1296,
+			"Name": "张霖",
+			"Job": "经理",
+			"CerNo": null,
+			"ScertName": null
+		}, {
+			"No": 0,
+			"KeyNo": "p165991ca474f1da37007ab96536b1a5",
+			"HasImage": true,
+			"CompanyCount": 1296,
+			"Name": "张霖",
+			"Job": "执行董事",
+			"CerNo": null,
+			"ScertName": null
+		}],
+		"Pledge": [{
+			"No": null,
+			"RegistNo": "91110105797551458Q_0",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "非公示项"
+			},
+			"PledgeeInfo": {
+				"Name": "兴业国际信托有限公司",
+				"KeyNo": "c4b410569567732ae8e2367ca690b442",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "91350000746388419C"
+			},
+			"PledgedAmount": "76800",
+			"RegDate": 1535385600,
+			"PublicDate": 0,
+			"Status": "有效",
+			"Detail": {
+				"ChangeList": [],
+				"CancelDetail": {
+					"CancelDate": 1535385600,
+					"CancelReason": ""
+				}
+			}
+		}, {
+			"No": null,
+			"RegistNo": "91110105797551458Q_0",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "非公示项"
+			},
+			"PledgeeInfo": {
+				"Name": "中国民生银行股份有限公司北京分行",
+				"KeyNo": "e51c4767cc0713b87e15f3c649bd0d9d",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "911101028019779621"
+			},
+			"PledgedAmount": "63000",
+			"RegDate": 1515600000,
+			"PublicDate": 0,
+			"Status": "无效",
+			"Detail": {
+				"ChangeList": [],
+				"CancelDetail": {
+					"CancelDate": 1515600000,
+					"CancelReason": ""
+				}
+			}
+		}, {
+			"No": null,
+			"RegistNo": "91110105797551458Q_0",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "非公示项"
+			},
+			"PledgeeInfo": {
+				"Name": "中国民生银行股份有限公司北京分行",
+				"KeyNo": "e51c4767cc0713b87e15f3c649bd0d9d",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "911101028019779621"
+			},
+			"PledgedAmount": "67500",
+			"RegDate": 1495555200,
+			"PublicDate": 0,
+			"Status": "无效",
+			"Detail": {
+				"ChangeList": [],
+				"CancelDetail": {
+					"CancelDate": 1495555200,
+					"CancelReason": ""
+				}
+			}
+		}, {
+			"No": null,
+			"RegistNo": "91110105797551458Q_0",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "非公示项"
+			},
+			"PledgeeInfo": {
+				"Name": "嘉兴尚广投资合伙企业（有限合伙）",
+				"KeyNo": "e2bb4b5d9dadc8a00084460ae75d3bd4",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "91330402MA28BP786P"
+			},
+			"PledgedAmount": "30000",
+			"RegDate": 1495382400,
+			"PublicDate": 0,
+			"Status": "有效",
+			"Detail": {
+				"ChangeList": [],
+				"CancelDetail": {
+					"CancelDate": 1495382400,
+					"CancelReason": ""
+				}
+			}
+		}, {
+			"No": null,
+			"RegistNo": "91110105797551458Q_0",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "非公示项"
+			},
+			"PledgeeInfo": {
+				"Name": "国民信托有限公司",
+				"KeyNo": "e7c35a61fcf43d592e49a64a32bbabdb",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "911100001429120804"
+			},
+			"PledgedAmount": "60000",
+			"RegDate": 1489593600,
+			"PublicDate": 0,
+			"Status": "有效",
+			"Detail": {
+				"ChangeList": [],
+				"CancelDetail": {
+					"CancelDate": 1489593600,
+					"CancelReason": ""
+				}
+			}
+		}, {
+			"No": null,
+			"RegistNo": "110000002153603_0003",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "非公示项"
+			},
+			"PledgeeInfo": {
+				"Name": "中国民生银行股份有限公司总行营业部",
+				"KeyNo": "e51c4767cc0713b87e15f3c649bd0d9d",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": ""
+			},
+			"PledgedAmount": "90000",
+			"RegDate": 1488124800,
+			"PublicDate": 0,
+			"Status": "无效",
+			"Detail": {
+				"ChangeList": [],
+				"CancelDetail": {
+					"CancelDate": 1488124800,
+					"CancelReason": ""
+				}
+			}
+		}, {
+			"No": null,
+			"RegistNo": "91110105797551458Q_0",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "非公示项"
+			},
+			"PledgeeInfo": {
+				"Name": "中国民生银行股份有限公司北京分行",
+				"KeyNo": "e51c4767cc0713b87e15f3c649bd0d9d",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "911101028019779621"
+			},
+			"PledgedAmount": "30000",
+			"RegDate": 1465920000,
+			"PublicDate": 0,
+			"Status": "有效",
+			"Detail": {
+				"ChangeList": [],
+				"CancelDetail": {
+					"CancelDate": 1465920000,
+					"CancelReason": ""
+				}
+			}
+		}, {
+			"No": null,
+			"RegistNo": "91110105797551458Q_0005",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "110000015251726"
+			},
+			"PledgeeInfo": {
+				"Name": "中国民生银行股份有限公司北京分行",
+				"KeyNo": "e51c4767cc0713b87e15f3c649bd0d9d",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "911101028019779621"
+			},
+			"PledgedAmount": "30000 万元",
+			"RegDate": 1465920000,
+			"PublicDate": 0,
+			"Status": "设立",
+			"Detail": null
+		}, {
+			"No": "4",
+			"RegistNo": "91110105797551458Q_0004",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "110000015251726"
+			},
+			"PledgeeInfo": {
+				"Name": "中国民生银行股份有限公司总行营业部",
+				"KeyNo": "e51c4767cc0713b87e15f3c649bd0d9d",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "911101028019779621"
+			},
+			"PledgedAmount": "90000 万元",
+			"RegDate": 1464278400,
+			"PublicDate": 0,
+			"Status": "有效",
+			"Detail": {
+				"ChangeList": [],
+				"CancelDetail": {
+					"CancelDate": 0,
+					"CancelReason": null
+				}
+			}
+		}, {
+			"No": null,
+			"RegistNo": "110000002153603_0001",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "非公示项"
+			},
+			"PledgeeInfo": {
+				"Name": "重庆国际信托有限公司",
+				"KeyNo": "da6f6b73acfcce32b16c3b1f2be77c63",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": ""
+			},
+			"PledgedAmount": "90000",
+			"RegDate": 1451318400,
+			"PublicDate": 0,
+			"Status": "无效",
+			"Detail": {
+				"ChangeList": [],
+				"CancelDetail": {
+					"CancelDate": 1451318400,
+					"CancelReason": ""
+				}
+			}
+		}, {
+			"No": null,
+			"RegistNo": "110000002153603_0002",
+			"PledgorInfo": {
+				"Name": "北京万达文化产业集团有限公司",
+				"KeyNo": "dcf5109629a637be741bf8033c3408c0",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": "非公示项"
+			},
+			"PledgeeInfo": {
+				"Name": "中国工商银行股份有限公司北京市分行",
+				"KeyNo": "5044fac866e7d28147085ef5510a1133",
+				"HasImage": false,
+				"CompanyCount": 0,
+				"No": ""
+			},
+			"PledgedAmount": "100000",
+			"RegDate": 1441555200,
+			"PublicDate": 0,
+			"Status": "无效",
+			"Detail": {
+				"ChangeList": [],
+                "CancelDetail": {
+                    "CancelDate": 1441555200,
+                    "CancelReason": ""
+                }
+			}
+		}],
+		"Penalty": [],
+		"SpotCheck": [],
+		"MPledge": [],
+		"Liquidation": null,
+		"ChangeDiffInfo": {
+			"KeyNo": "c2dbad658a8febcfb63de4d876ed79bd",
+			"CompanyName": "北京万达投资有限公司",
+			"ChangeList": [{
+				"No": 0,
+				"ProjectName": "法定代表人",
+				"BeforeList": ["<em>丁本锡【退出】</em>"],
+				"AfterList": ["<em>张霖*【新增】</em>"],
+				"ChangeDate": 1432137600,
+				"IsStart": true
+			}, {
+				"No": 0,
+				"ProjectName": "董事（理事）、经理、监事",
+				"BeforeList": ["<em>丁本锡【退出】</em>", "<em>丁本锡【退出】</em>", "张谌"],
+				"AfterList": ["<em>张霖*【新增】</em>", "<em>张霖*【新增】</em>", "张谌"],
+				"ChangeDate": 1432137600,
+				"IsStart": true
+			}, {
+				"No": 0,
+				"ProjectName": "法定代表人",
+				"BeforeList": ["<em>李耀汉【退出】</em>"],
+				"AfterList": ["<em>丁本锡【新增】</em>"],
+				"ChangeDate": 1368633600,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "董事（理事）、经理、监事",
+				"BeforeList": ["<em>李耀汉【退出】</em>", "<em>李耀汉【退出】</em>", "张谌"],
+				"AfterList": ["<em>丁本锡【新增】</em>", "<em>丁本锡【新增】</em>", "张谌"],
+				"ChangeDate": 1368633600,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "股东出资变更",
+				"BeforeList": ["<em>大连万达集团股份有限公司,企业法人【退出】</em>", "王健林,自然人股东"],
+				"AfterList": ["<em>北京万达文化产业集团有限公司,企业法人【新增】</em>", "王健林,自然人股东"],
+				"ChangeDate": 1348502400,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "实收资本（金）",
+				"BeforeList": ["<em>103600</em>"],
+				"AfterList": ["<em>300000</em><em>（+189.58%）</em>"],
+				"ChangeDate": 1279123200,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "股东出资变更",
+				"BeforeList": ["大连万达集团股份有限公司,企业法人", "王健林,自然人股东"],
+				"AfterList": ["大连万达集团股份有限公司,企业法人", "王健林,自然人股东"],
+				"ChangeDate": 1279123200,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "注册资本",
+				"BeforeList": ["<em>3600</em>"],
+				"AfterList": ["<em>300000</em><em>（+8233.33%）</em>"],
+				"ChangeDate": 1275926400,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "实收资本（金）",
+				"BeforeList": ["<em>3600</em>"],
+				"AfterList": ["<em>103600</em><em>（+2777.78%）</em>"],
+				"ChangeDate": 1275926400,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "经营范围",
+				"BeforeList": ["投资管理", "投资咨询。"],
+				"AfterList": ["<em>项目</em>投资", "投资<em>管理</em>", "<em>投资</em>咨询", "<em>专业承包</em>", "<em>室内装饰工程设计</em>。<em>下期出资时间为2010年08月31日。</em>"],
+				"ChangeDate": 1275926400,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "股东出资变更",
+				"BeforeList": ["王健林,自然人股东", "<em>王思聪,自然人股东【退出】</em>"],
+				"AfterList": ["<em>大连万达集团股份有限公司,企业法人【新增】</em>", "王健林,自然人股东"],
+				"ChangeDate": 1275926400,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "企业类型",
+				"BeforeList": ["有限责任公司<em>(自然人投资或控股)</em>"],
+				"AfterList": ["<em>其他</em>有限责任公司"],
+				"ChangeDate": 1275926400,
+				"IsStart": false
+			}, {
+				"No": 0,
+				"ProjectName": "董事（理事）、经理、监事",
+				"BeforeList": ["李耀汉", "李耀汉", "张谌"],
+				"AfterList": ["李耀汉", "李耀汉", "张谌"],
+				"ChangeDate": 1267632000,
+				"IsStart": false
+			}, {
+				"No": 2,
+				"ProjectName": "董事（理事）、经理、监事",
+				"BeforeList": ["张谌,监事"],
+				"AfterList": ["张谌,监事"],
+				"ChangeDate": 1432137600,
+				"IsStart": false
+			}, {
+				"No": 4,
+				"ProjectName": "董事（理事）、经理、监事",
+				"BeforeList": ["张谌,监事"],
+				"AfterList": ["张谌,监事"],
+				"ChangeDate": 1368633600,
+				"IsStart": false
+			}, {
+				"No": 5,
+				"ProjectName": "股东出资变更",
+				"BeforeList": ["<em>大连万达集团股份有限公司,296400,企业法人【退出】</em>", "王健林,3600,自然人股东"],
+				"AfterList": ["<em>北京万达文化产业集团有限公司,296400,企业法人【新增】</em>", "王健林,3600,自然人股东"],
+				"ChangeDate": 1348502400,
+				"IsStart": false
+			}, {
+				"No": 6,
+				"ProjectName": "实收资本（金）",
+				"BeforeList": ["<em>103600</em>万元"],
+				"AfterList": ["<em>300000</em>万元<em>（+189.58%）</em>"],
+				"ChangeDate": 1279123200,
+				"IsStart": false
+			}, {
+				"No": 7,
+				"ProjectName": "股东出资变更",
+				"BeforeList": ["大连万达集团股份有限公司,296400,企业法人", "王健林,3600,自然人股东"],
+				"AfterList": ["大连万达集团股份有限公司,296400,企业法人", "王健林,3600,自然人股东"],
+				"ChangeDate": 1279123200,
+				"IsStart": false
+			}, {
+				"No": 9,
+				"ProjectName": "实收资本（金）",
+				"BeforeList": ["<em>3600</em>万元"],
+				"AfterList": ["<em>103600</em>万元<em>（+2777.78%）</em>"],
+				"ChangeDate": 1275926400,
+				"IsStart": false
+			}, {
+				"No": 11,
+				"ProjectName": "股东出资变更",
+				"BeforeList": ["王健林,<em>3528</em>,自然人股东", "<em>王思聪,72,自然人股东【退出】</em>"],
+				"AfterList": ["<em>大连万达集团股份有限公司,296400,企业法人【新增】</em>", "王健林,<em>3600（+72）</em>,自然人股东"],
+				"ChangeDate": 1275926400,
+				"IsStart": false
+			}, {
+				"No": 3,
+				"ProjectName": "董事（理事）、经理、监事",
+				"BeforeList": ["<em>丁本锡,执行董事【退出】</em>", "<em>丁本锡,经理【退出】</em>", "张谌,监事"],
+				"AfterList": ["<em>张霖*,执行董事【新增】</em>", "<em>张霖*,经理【新增】</em>", "张谌,监事"],
+				"ChangeDate": 1432137600,
+				"IsStart": true
+			}, {
+				"No": 4,
+				"ProjectName": "董事（理事）、经理、监事",
+				"BeforeList": ["<em>李耀汉,执行董事【退出】</em>", "<em>李耀汉,经理【退出】</em>", "张谌,监事"],
+				"AfterList": ["<em>丁本锡,执行董事【新增】</em>", "<em>丁本锡,经理【新增】</em>", "张谌,监事"],
+				"ChangeDate": 1368633600,
+				"IsStart": false
+			}, {
+				"No": 13,
+				"ProjectName": "董事（理事）、经理、监事",
+				"BeforeList": ["李耀汉,执行董事", "李耀汉,经理", "张谌,监事"],
+				"AfterList": ["李耀汉,执行董事", "李耀汉,经理", "张谌,监事"],
+				"ChangeDate": 1393516800,
+				"IsStart": false
+			}],
+			"UpdateDate": 1531616368,
+			"TotalCount": 23
+		},
+		"HistoryDataList": [{
+			"Category": 1,
+			"DataName": "曾用名",
+			"DataExpand": null,
+			"AlterContent": null,
+			"ChangeDate": null,
+			"TotalCount": 0,
+			"Children": []
+		}, {
+			"Category": 2,
+			"DataName": "历史股东",
+			"DataExpand": null,
+			"AlterContent": null,
+			"ChangeDate": null,
+			"TotalCount": 2,
+			"Children": [{
+				"Category": 2,
+				"DataName": "大连万达集团股份有限公司",
+				"DataExpand": null,
+				"AlterContent": "befe52d9753b511b6aef5e33fe00f97d",
+				"ChangeDate": null,
+				"TotalCount": 0,
+				"Children": []
+			}, {
+				"Category": 2,
+				"DataName": "王思聪",
+				"DataExpand": null,
+				"AlterContent": "",
+				"ChangeDate": null,
+				"TotalCount": 0,
+				"Children": []
+			}]
+		}, {
+			"Category": 3,
+			"DataName": "历史法人",
+			"DataExpand": null,
+			"AlterContent": null,
+			"ChangeDate": null,
+			"TotalCount": 2,
+			"Children": [{
+				"Category": 3,
+				"DataName": "丁本锡",
+				"DataExpand": null,
+				"AlterContent": "",
+				"ChangeDate": null,
+				"TotalCount": 0,
+				"Children": []
+			}, {
+				"Category": 3,
+				"DataName": "李耀汉",
+				"DataExpand": null,
+				"AlterContent": "",
+				"ChangeDate": null,
+				"TotalCount": 0,
+				"Children": []
+			}]
+		}],
+		"Tags": [],
+		"Licens": [],
+		"Assistance": [],
+		"SimpleCancellation": null,
+		"Product": null,
+		"HisTelList": [{
+			"Tel": "010-85588558",
+			"SourceFrom": "2016"
+		}, {
+			"Tel": "010-85587728",
+			"SourceFrom": "2015"
+		}, {
+			"Tel": "010-85853459",
+			"SourceFrom": "2014"
+		}, {
+			"Tel": "010-85587097",
+			"SourceFrom": ""
+		}],
+		"CommonList": [{
+			"Key": 5,
+			"Value": "万达投资",
+			"KeyDesc": "公司简称"
+		}],
+		"CompanyStatus": 10,
+		"CountInfo": {
+			"IsIndividual": false,
+			"InvesterCount": 4,
+			"ShiXinCount": 0,
+			"ZhiXingCount": 0,
+			"SAICCount": 0,
+			"AnnualReportCount": 5,
+			"PatentCount": 0,
+			"CTACount": 0,
+			"JudgementCount": 0,
+			"CertificateCount": 0,
+			"SoftCRCount": 0,
+			"WorkCRCount": 0,
+			"WebCount": 0,
+			"CerCategoryCount": 0,
+			"NewsCount": 440,
+			"RecruitCount": 0,
+			"FinancingCount": 0,
+			"ProductCount": 0,
+			"FinanceCount": 0,
+			"TaxCount": 0,
+			"FinancingTaxCount": 1,
+			"CompanyInfoCount": 0,
+			"ResearchReportCount": 0,
+			"TenderCount": 0,
+			"TeamCount": 0,
+			"JudicialSaleCount": 0,
+			"CourtSessionAnnouncementCount": 0,
+			"TaxOwnCount": 0,
+			"AdministrativeLicenseCount": 1,
+			"AdministrativePenaltyCount": 0,
+			"CIECount": 0,
+			"FINCount": 0,
+			"PSCount": 0,
+			"PSMCount": 0,
+			"XJCount": 0,
+			"PefundCount": 0,
+			"WechatCount": 0,
+			"PubCount": 0,
+			"TiCount": 0,
+			"LPCount": 0,
+			"LRCount": 0,
+			"LMCount": 0,
+			"LDCount": 0,
+			"ENPCount": 0,
+			"HCCount": 312,
+			"BNTCount": 1,
+			"Remark": "1809011023,ALL",
+			"RiskCountInfo": {
+				"SelfCount": 5,
+				"RelatedCount": 50,
+				"PromptCount": 2
+			},
+			"LandInfoCount": 0,
+			"BondCount": 0,
+			"ProjectCount": 0,
+			"DeliveryNoticeCount": 0,
+			"SVCount": 0,
+			"JUATCount": 0,
+			"JULWCount": 0,
+			"CouncilCount": 0,
+			"SupervisorCount": 0,
+			"LFMemberCount": 0,
+			"OweTaxCount": 0,
+			"TaxPunishCount": 0,
+			"TelecomLicCount": 0,
+			"CreditCount": 0
+		},
+		"KeyNo": "c2dbad658a8febcfb63de4d876ed79bd",
+		"HoldingType": "私有绝对控股",
+		"touziList": [{
+			"KeyNo": "068573766c3727d1eb3ee345277f8170",
+			"Name": "青岛万达文化投资有限公司",
+			"No": "370211230280814",
+			"CreditCode": "91370211MA3C0AUG2R",
+			"EconKind": "有限责任公司(非自然人投资或控股的法人独资)",
+			"Status": "在业",
+			"RegistCapi": "100000万",
+			"OperName": "张霖",
+			"FundedRatio": "100%",
+			"StartDate": "2015-11-17",
+			"Oper": {
+				"Org": 2,
+				"Name": "张霖",
+				"KeyNo": "p165991ca474f1da37007ab96536b1a5",
+				"HasImage": true,
+				"CompanyCount": 1296
+			}
+		}, {
+			"KeyNo": "43cd01ff584eeb3c2cf9d3a14a79133b",
+			"Name": "北京万达电影发行有限公司",
+			"No": "110105013138784",
+			"CreditCode": null,
+			"EconKind": "有限责任公司(法人独资)",
+			"Status": "注销",
+			"RegistCapi": "500万人民币",
+			"OperName": "张霖",
+			"FundedRatio": "100%",
+			"StartDate": "2010-08-17",
+			"Oper": {
+				"Org": 2,
+				"Name": "张霖",
+				"KeyNo": "p165991ca474f1da37007ab96536b1a5",
+				"HasImage": true,
+				"CompanyCount": 1296
+			}
+		}, {
+			"KeyNo": "e1d2efe1035c197183f2ea13f7c1c7c2",
+			"Name": "万达影视传媒有限公司",
+			"No": "110105012079777",
+			"CreditCode": "9111010569230985X4",
+			"EconKind": "其他有限责任公司",
+			"Status": "在业",
+			"RegistCapi": "75000万人民币",
+			"OperName": "张霖",
+			"FundedRatio": "22.44%",
+			"StartDate": "2009-07-08",
+			"Oper": {
+				"Org": 2,
+				"Name": "张霖",
+				"KeyNo": "p165991ca474f1da37007ab96536b1a5",
+				"HasImage": true,
+				"CompanyCount": 1296
+			}
+		}, {
+			"KeyNo": "066922e9c1e094b57da351e05a334b3d",
+			"Name": "万达电影股份有限公司",
+			"No": "110000007928474",
+			"CreditCode": "911100007715928418",
+			"EconKind": "其他股份有限公司(上市)",
+			"Status": "在业",
+			"RegistCapi": "117429.497400万人民币",
+			"OperName": "张霖",
+			"FundedRatio": "50.70%",
+			"StartDate": "2005-01-20",
+			"Oper": {
+				"Org": 2,
+				"Name": "张霖",
+				"KeyNo": "p165991ca474f1da37007ab96536b1a5",
+				"HasImage": true,
+				"CompanyCount": 1296
+			}
+		}]
+	},
+	"Status": 200
+}

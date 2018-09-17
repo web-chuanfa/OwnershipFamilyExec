@@ -1,0 +1,94 @@
+.basic_info_detail{
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    .info_detail_header{
+    	width: 100%;
+		height: 0.52rem;
+		background: #ffffff;
+		.header_home{
+			width: 0.27rem;
+			height: 0.249rem;
+			padding-top: 0.13rem;
+			margin-left: 0.24rem;
+			float: left;
+			a{
+				img{
+					display: block;
+					width: 100%;
+				}
+			}
+		}
+		.menu{
+			float: left;
+			li{
+				margin-left: 0.24rem;
+				float: left;
+				line-height: 0.45rem;
+				a{
+					padding: 5px 0;
+					font-size: 0.14rem;
+					color: #333333;
+					&.active{
+						color: #db0034;
+						border-bottom: 1px solid #db0034;
+					}
+				}
+				&.active_now{
+					a{
+						color: #db0034!important;
+    					border-bottom: 1px solid #db0034!important;
+					}
+				}
+			}
+		}
+		.firm_search{
+			float: right;
+			width: 3.31rem;
+			margin-right: 0.3rem;
+			span{
+				float: left;
+				margin-right: 0.15rem;
+				padding-top: 0.16rem;
+				font-size: 0.14rem;
+				color: #333333;
+			}
+			.info_search{
+				float: left;
+				position: relative;
+				top: 0.12rem;
+				.searchText{
+					width: 2.35rem;
+					padding-left: 0.15rem;
+					height: 0.27rem;
+					border: 1px solid #ececec;
+					background: #ececec;
+					border-radius: 0.15rem;
+					color: #333333;
+					display: block;
+				}
+				.icon_search{
+					width: 0.14rem;
+					height: 0.14rem;
+					background: url('../../images/search.png');
+					background-repeat: no-repeat;
+					background-size: 100% 100%;
+					position: absolute;
+					right: 0.15rem;
+					top: 0.07rem;
+				}
+				.el-input{
+					border-radius: 4px;
+  					border: 1px solid #e6e7e8;
+				}
+				.el-input__inner{
+					border: 0;
+					height: 0.3rem;
+					line-height: 0.3rem;
+				}
+			}
+		}
+    }
+}

@@ -1,0 +1,688 @@
+.allViewChina{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	.mask{
+		top: 0;
+		position: fixed;
+	    left: 0rem;
+	    right:0rem;
+	    bottom:0rem;
+	    background-color: rgba(64, 64, 63, 0.5);
+	    -moz-opacity: 0.5;
+	    opacity:0.5;
+	    z-index:1001;
+	    filter: alpha(opacity=50);
+	}
+	.region_detail_tabs{
+		width: 100%;
+    	height: 94%;
+    	.region_substance{
+    		width: 94.2%;
+			height: 100%;
+			margin: 0 auto;
+			padding-top: 0.25rem;
+			display: -webkit-flex;
+		    display: flex;
+		    flex-direction: column;
+			.region_title{
+				width: 100%;
+				height: 0.5rem;
+				line-height: 0.5rem;
+				background-color: rgba(255, 255, 255, 0.7);
+				opacity: 0.7;
+				border-top-left-radius: 0.1rem;
+				border-top-right-radius: 0.1rem;
+				font-weight: bold;
+				font-size: 0.17rem;
+				color: #000000;
+				padding-left: 0.21rem;
+				span{
+					color: #333333;
+					font-weight: normal;
+					margin-right: 0.1rem;
+					i{
+						color: #333333;
+						font-size: 0.18rem;
+					}
+				}
+			}
+			.region_content{
+				width: 100%;
+				height: 93.07%;
+				-moz-box-flex: 1;
+			    -webkit-box-flex: 1;
+				flex: 1;
+				background-color: rgba(255, 255, 255, 0.8);
+				opacity: 0.8;
+				border-radius: 0.1rem;
+				border-top-left-radius: 0rem;
+				border-top-right-radius: 0rem;
+				position: relative;
+				display: -webkit-flex;
+				display: flex;
+				flex-direction: column;
+				.navTab{
+					padding-top: 0.16rem;
+  					height: 0.54rem;
+  					li{
+  						float: left;
+   						margin-left: 0.22rem;
+   						font-size: 0.24rem;
+   						color: #6a85c9;
+					    padding: 6px 8px;
+					    font-size: 0.17rem;
+					    background: #f7f7fd;
+					    border: 1px solid #6a85c9;
+					    border-top-left-radius: 0.05rem;
+					    border-bottom-left-radius: 0.05rem;
+					    &:nth-of-type(2){
+					    	margin-left: 0rem;
+					    	border-top-left-radius: 0rem;
+						    border-bottom-left-radius: 0rem;
+						    border-top-right-radius: 0.05rem;
+						    border-bottom-right-radius: 0.05rem;
+					    }
+					    a{
+					    	color: #6a85c9;
+					    }
+					    &.active_now{
+   							background: #6a85c9;
+					    	a{
+					    		color: #ffffff;
+					    	}
+					    }
+  					}
+				}
+				.region_map_content{
+					-moz-box-flex: 1; /*中间div宽度自适应屏幕 兼容Firefox*/
+				    -webkit-box-flex: 1;/*中间div宽度自适应屏幕 兼容Chrome、Safari*/
+				    flex: 1;
+				    width: 100%;
+				    height: 100%;
+				    margin: 0 auto;
+				    .chinaPlat{
+				    	width: 74.89%;
+    					height: 88.59%;
+						margin: 0 auto;
+						background: url('../../images/chinaMap.png');
+						background-repeat: no-repeat;
+						background-size: 100% 100%;
+						position: relative;
+						.info_map{
+					    	h6{
+					    		width: 3.5rem;
+								margin: 0 auto;
+								padding-top: 0.35rem;
+								text-align: center;
+								font-size: 0.14rem;
+								color: #333333;
+								font-weight: normal;
+								span{
+									font-size: 0.17rem;
+									color: #f9ba82;
+									padding: 0 0.08rem;
+								}
+					    	}
+					    	.region_list{
+					    		div{
+					    			position: absolute;
+									width: 1rem;
+									height: 1rem;
+									border-radius: 50%;
+									color: #ffffff;
+									text-align: center;
+					    		}
+					    		.northWest{
+					    			left: 11.34%;
+									top: 28.7%;
+									background: #d7c86f;
+					    		}
+					    		.centralChina{
+									left: 34.5%;
+									top: 40%;
+									background: #668acc;
+								}
+								.northChina{
+									left: 65%;
+									top: 28.7%;
+									background: #e8ce76;
+								}
+								.northEast{
+									left: 80.1%;
+									top: 12.83%;
+									background: #668acc;
+								}
+								.eastChina{
+									left: 65%;
+									top: 60%;
+									background: #d7a3aa;
+								}
+								.HongMacaoTaiwan{
+									left: 86%;
+									top: 76.1%;
+									background: #668acc;
+								}
+								.southChina{
+									left: 47.76%;
+									top: 80.2%;
+									background: #f9c698;
+								}
+								.westSouth{
+									left: 26.83%;
+									top: 67%;
+									background: #f9c699;
+								}
+								.other{
+									left: 5.95%;
+									top: 75.88%;
+									background: #738ee5;
+								}
+					    	}
+					    }
+				    }
+				    .worldPlat{
+				    	width: 64.89%;
+    					height: 81.59%;
+						margin: 0 auto;
+						background: url('../../images/worldMap.png');
+						background-repeat: no-repeat;
+						background-size: 100% 100%;
+						position: relative;
+						.Africa{
+							left: 4.63%;
+							top: 42.78%;
+							background: #f9c698;
+						}
+						.Asia{
+						  left: 31.95%;
+						  top: 26.97%;
+						  background: #668dc7;
+						}
+						.European{
+						  left: 4.95%;
+						  top: 14.88%;
+						  background: #d7c86f;
+						}
+						.NorthAmerica{
+						  left: 73.49%;
+						  top: 13.02%;
+						  background: #7ca0c5;
+						}
+						.Oceania{
+						  left: 31.95%;
+						  top: 70.68%;
+						  background: #3075bb;
+						}
+						.other{
+							left: 65.95%;
+							top: 75.88%;
+							background: #738ee5;
+						}
+						.SouthAmerica{
+						  left: 79.88%;
+						  top: 55.80%;
+						  background: #3075bb;
+						}
+				    }
+				    .info_map{
+				    	h6{
+				    		width: 3.5rem;
+							margin: 0 auto;
+							padding-top: 0.35rem;
+							text-align: center;
+							font-size: 0.14rem;
+							color: #333333;
+							font-weight: normal;
+							span{
+								font-size: 0.17rem;
+								color: #f9ba82;
+								padding: 0 0.08rem;
+							}
+				    	}
+				    	.region_list{
+				    		div{
+				    			position: absolute;
+								width: 1rem;
+								height: 1rem;
+								border-radius: 50%;
+								color: #ffffff;
+								text-align: center;
+				    		}
+				    	}
+				    }
+				    .name{
+						width: 60px;
+					    margin: 0 auto;
+					    overflow: hidden;
+					    text-overflow: ellipsis;
+					    white-space: nowrap;
+					    font-size: 0.12rem;
+					    margin-top: 25%;
+					}
+					.number {
+					    font-size: 0.16rem;
+					}
+					.city_modules,.province_modules{
+						width: 100%;
+  						height: 92.2%;
+  						.provinceList{
+  							background-size: 100% 100% !important;
+  							margin: 0px auto;
+  							div{
+  								width: 1rem;
+								height: 1rem;
+								display: inline-block;
+								margin-right: 0.2rem;
+								margin-bottom: 0.1rem;
+								border-radius: 50%;
+								color: #ffffff;
+								text-align: center;
+								background: #d7c86f;
+								position: relative;
+								left: 25%;
+								top: 35%;
+								&.leftL{
+									left: 6%;
+								}
+  							}
+  							.vCityList{
+							  left: 40%;
+							}
+  						}
+  						.northEast{
+						  width: 36.18%;
+						  height: 100%;
+						}
+						.eastChina{
+						  width: 38.46%;
+						  height: 100%;
+						}
+						.centralChina{
+						  width: 30.99%;
+						  height: 100%;
+						}
+						.northChina{
+						  width: 61.99%;
+						  height: 100%;
+						}
+						.southChina{
+						  width: 72.46%;
+						  height: 100%;
+						}
+						.northWest{
+						  width: 80.03%;
+						  height: 100%;
+						}
+						.westSouth{
+						  width: 46.96%;
+						  height: 100%;
+						}
+						.HongMacaoTaiwan{
+						  width: 92.37%;
+						  height: 100%;
+						}
+						.Guangdong{
+						  width: 72.46%;
+						  height: 100%;
+						}
+						.Shanghai{
+						  width: 49.24%;
+						  height: 100%;
+						}
+						.Beijing{
+						  width: 49.55%;
+						  height: 100%;
+						}
+						.Chongqing{
+						  width: 55.87%;
+						  height: 100%;
+						}
+						.Fujian{
+						  width: 46.23%;
+						  height: 100%;
+						}
+						.Gansu{
+						  width: 61.58%;
+						  height: 100%;
+						}
+						.Guangxi{
+						  width: 66.76%;
+						  height: 100%;
+						}
+						.Guizhou{
+						  width: 61.27%;
+						  height: 100%;
+						}
+						.Hainan{
+						  width: 64.58%;
+						  height: 100%;
+						}
+						.Hebei{
+						  width: 37.63%;
+						  height: 100%;
+						}
+						.Henan{
+						  width: 58.36%;
+						  height: 100%;
+						}
+						.Heilongjiang{
+						  width: 59.71%;
+						  height: 100%;
+						}
+						.Hubei{
+						  width: 86.04%;
+						  height: 100%;
+						}
+						.Hunan{
+						  width: 47.79%;
+						  height: 100%;
+						}
+						.Jilin{
+						  width: 78.06%;
+						  height: 100%;
+						}
+						.Jiangsu{
+						  width: 68.52%;
+						  height: 100%;
+						}
+						.Jiangxi{
+						  width: 38.56%;
+						  height: 100%;
+						}
+						.Liaoning{
+						  width: 55.25%;
+						  height: 100%;
+						}
+						.Neimeng{
+						  width: 62.40%;
+						  height: 100%;
+						}
+						.Ningxia{
+						  width: 34.93%;
+						  height: 100%;
+						}
+						.Qinghai{
+						  width: 77.23%;
+						  height: 100%;
+						}
+						.Shandong{
+						  width: 74.12%;
+						  height: 100%;
+						}
+						.Shanxi{
+						  width: 26.43%;
+						  height: 100%;
+						}
+						.Shaanxi{
+						  width: 29.75%;
+						  height: 100%;
+						}
+						.Taiwan{
+						  width: 42.71%;
+						  height: 100%;
+						}
+						.Tianjin{
+						  width: 29.64%;
+						  height: 100%;
+						}
+						.Xizang{
+						  width: 93.30%;
+						  height: 100%;
+						}
+						.Xinjiang{
+						  width: 74.64%;
+						  height: 100%;
+						}
+						.Zhejiang{
+						  width: 51.83%;
+						  height: 100%;
+						}
+						.Yunnan{
+						  width: 54.01%;
+						  height: 100%;
+						}
+						.Guangxizhuangzuzizhiqu{
+						  width: 66.76%;
+						  height: 100%;
+						}
+						.Sichuan{
+						  width: 60.75%;
+						  height: 100%;
+						}
+						.Anhui{
+						  width: 46.13%;
+						  height: 100%;
+						}
+						.other{
+						    width: 64.89%;
+							height: 81.59%;
+							.vTradeList{
+								left: 40% !important;
+								top: 40% !important;
+							}
+						}
+					}
+					.vState,.vTrade{
+						.China{
+						  width: 64.89%;
+						  height: 100%;
+						}
+						.NorthAmerica{
+						  width: 93.30%;
+						  height: 100%;
+						}
+						.Oceania{
+						  width: 60.13%;
+						  height: 100%;
+						}
+						.Africa{
+						  width: 44.78%;
+						  height: 100%;
+						}
+						.SouthAmerica{
+						  width: 33.17%;
+						  height: 100%;
+						}
+						.European{
+						  width: 73.60%;
+						  height: 100%;
+						}
+						.Asia{
+						  width: 85.21%;
+						  height: 100%;
+						}
+						.other{
+						    width: 64.89%;
+							height: 81.59%;
+							.vTradeList{
+								left: 40% !important;
+								top: 40% !important;
+							}
+						}
+						.provinceList{
+							div{
+								left: 25%;
+								top: 30%;
+							}
+							.vTradeList{
+								left: 30%;
+							}
+						}
+						.Asia{
+							div{
+								top: 16%;
+							}
+						}
+					}
+				}
+				.trigger_filter{
+			    	width: 100%;
+					height: 0.4rem;
+					padding-left: 0.29rem;
+					position: absolute;
+				    bottom: 0.2rem;
+				    a{
+				    	width: 0.4rem;
+						height: 0.4rem;
+						display: block;
+						img{
+							width: 100%;
+							height: 100%;
+						}
+				    }
+			    }
+			}
+    	}
+	}
+	.region_search_module_dialog{
+		.region_search_module{
+			width: 4.18rem;
+		    padding: 0.25rem 0.18rem 0.18rem 0.18rem;
+		    border-radius: 0.15rem;
+		    height: 100%;
+		    border-top: 1px solid #ececec;
+		    position: fixed;
+		    top: 0rem;
+		    right:0rem;
+		    bottom:0rem;
+		    z-index:9999;
+		    background-color: rgba(255, 255, 255, 0.9);
+		    opacity: 0.9;
+		    .el-tabs--card{
+		    	.el-tabs__header{
+		    		.el-tabs__nav{
+		    			border: 0 !important;
+		    		}
+		    		.el-tabs__item{
+		    			border-left: 0px !important;
+  						font-size: 0.19rem !important;
+  						font-weight: normal !important;
+  						&.is-active{
+  							color: #6a85c9 !important;
+  							border-bottom-color: #e4e7ed;
+  						}
+		    		}
+		    	}
+		    }
+		    .el-checkbox-group{
+		    	label{
+		    		margin-right: 0.21rem;
+  					margin-bottom: 0.13rem;
+		    	}
+		    	.el-checkbox-button__inner{
+		    		border: 1px solid #dcdfe6 !important;
+		    	}
+		    	.is-checked{
+		    		.el-checkbox-button__inner{
+		    			border: 1px solid #409EFF !important;
+		    		}
+		    	}
+		    	.el-checkbox-button--medium{
+		    		.el-checkbox-button__inner{
+		    			padding: 6px 8px !important;
+  						border-radius: 0.05rem !important;
+		    		}
+		    	}
+		    }
+		    .el-tabs{
+		   	  height: 100%;
+		   	  .el-tab-pane{
+		   	  	height: 92%;
+		   	  }
+		   	  .el-tabs__content{
+		   	  	height: 100%;
+		   	  }
+		    }
+		    .region_search_content{
+		    	height: 100%;
+		    	position: relative;
+		       .region_search_filter{
+		    		height: 100%;
+		    		.checkbox-group-module{
+				    	border-bottom: 1px solid #dcdfe6 !important;
+		  				margin-bottom: 0.25rem;
+		  				h6{
+		  					font-size: 0.15rem;
+						    font-weight: normal;
+						    color: #999999;
+						    margin-bottom: 0.20rem;
+		  				}
+				    }
+				    .borderB0{
+				    	border-bottom: 0px !important;
+				    }
+				    .handle{
+			   	  		width: 3.35rem;
+						height: 0.4rem;
+						margin: 0 auto;
+						position: absolute;
+  						bottom: 0rem;
+						button{
+							width: 1.5rem;
+							height: 0.37rem;
+							background-color: #ffffff;
+							border-radius: 0.1rem;
+							border: solid 1px #999999;
+							font-size: 0.14rem;
+							color: #333333;
+							float: left;
+							&:last-child{
+								margin-left: 0.3rem;
+							}
+						}
+						.handle_filter_active{
+							border: 0;
+							width: 1.52rem;
+							height: 0.39rem;
+							background: -webkit-linear-gradient(left, #f28067, #e03834); /* Safari 5.1 - 6.0 */
+						    background: -o-linear-gradient(right, #f28067, #e03834); /* Opera 11.1 - 12.0 */
+						    background: -moz-linear-gradient(right, #f28067, #e03834); /* Firefox 3.6 - 15 */
+						    background: linear-gradient(to right, #f28067, #e03834); /* 标准的语法 */
+							color: #ffffff;
+						}
+			   	  	}
+		       }
+		       .region_search_place{
+		   	  	    .info_search{
+		   	  	    	position: relative;
+						width: 3.82rem;
+						.icon_search{
+		   	  	    		width: 0.14rem;
+						    height: 0.14rem;
+						    background: url(../../images/search.png);
+						    background-repeat: no-repeat;
+						    background-size: 100% 100%;
+						    position: absolute;
+						    right: 0.15rem;
+						    top: 0.11rem;
+		   	  	    	}
+						.searchText{
+							width: 3.67rem;
+						    padding-left: 0.15rem;
+						    height: 0.35rem;
+						    border: 1px solid #ececec;
+						    background: #ececec;
+						    border-radius: 0.15rem;
+						    color: #b3b3b3;
+						    display: block;
+						    font-size: 0.14rem;
+						}
+		   	  	    }
+		   	  }
+		    }
+		    .pos_a{
+		    	position: absolute;
+			    width: 0.17rem;
+			    height: 0.17rem;
+			    top: 0.45rem;
+			    right: 0.18rem;
+			    img{
+			    	width: 100%;
+				    height: 100%;
+				    display: block;
+			    }
+		    }
+		}
+	}
+}
